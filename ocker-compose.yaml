@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ticket-bot:
+    build: .
+    container_name: ticket-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
