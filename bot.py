@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Конфигурация из переменных окружения
-TOKEN = os.getenv('BOT_TOKEN')
+TOKEN = os.getenv('MTUyOTk5OTQyNjE5MjQwODgyNg.Gfm_vQ.nFRqrP-4Uj-gsRMVatrd_EwFq9YgWbAC6W31Xo')
 GUILD_ID = int(os.getenv('GUILD_ID', 0))
 CATEGORY_ID = int(os.getenv('CATEGORY_ID', 0))
 STAFF_ROLE_ID = int(os.getenv('STAFF_ROLE_ID', 0))
